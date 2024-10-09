@@ -1,0 +1,36 @@
+GIT FLOW:
+
+- git int: inicializa o repositório GIT.
+- git add: prepara os arquivos para serem commitados.
+- git commit -m "mensagem": faz o commit dos arquivos preparados.
+
+
+git add index.html
+git status -> ver os commits (se esta commitado ou não)
+git rm --cached "nomearquivo" -> remove do repositório
+git add . -> prepara todos os arquivos
+git commit -m "primeira versão"
+
+GIT CONFIGURAÇÕES:
+
+- git config --global user.name "nome"
+- git config --global user.email "email"
+- git log -> para ver o "autores", se funcionou as configurações (Q volta para o codigo)
+- git log --oneline -> ver os commits criados
+
+-criar .gitignore -> arquivo que ignore o que estiver nele
+coloca lá os arquivos que quero que sejam ignorados pelo git
+
+BRANCHES -> ramificações
+- git branch -> lista todasas branches
+- git branch "nome" -> cria branches
+- git checkout development -> muda de branch, nesse caso vai para development
+- git checkout -b "nomebranch" -> cria e já muda pra brach
+- git branch -M main -> volta para a main
+
+- git remote add origin https://github.com/Maah28/Curso-Git-e-Github.git -> adicionou nesse repositório do github
+- git push -u origin main -> 
+- git pull -> puxa do repositório para mim (baixa as novas versões)
+
+
+
